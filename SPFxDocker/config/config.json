@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-docker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldDocker/HelloWorldDockerWebPart.js",
+          "manifest": "./src/webparts/helloWorldDocker/HelloWorldDockerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldDockerWebPartStrings": "lib/webparts/helloWorldDocker/loc/{locale}.js"
+  }
+}

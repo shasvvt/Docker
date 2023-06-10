@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "spfx-docker",
+    "libraryId": "bc4479ed-8dbe-4eed-ba32-5d50ebc59f38",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfxDocker",
+    "solutionShortDescription": "spfxDocker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
